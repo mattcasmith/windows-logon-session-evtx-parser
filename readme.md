@@ -32,6 +32,7 @@ Testing of the Windows Logon Session EVTX Parser is an ongoing process. The scri
 The Windows Logon Session EVTX Parser is relatively easy to configure by directly editing the variables within the script itself. There are three primary settings that can be adjusted to your needs.
 
 |**Variable** |**Example** |**Purpose** |
+|------------ |----------- |----------- |
 |<code>$logFile</code> |C:\temp\export.evtx |Either set to the path of an exported Windows Security event log EVTX file, or leave blank to use the live log (script must be run with administrator privileges if accessing live logs) |
 |<code>$verbosity</code> |1 |Must be set to one of the three verbosity settings (<a href="#verbosity">see below</a>) |
 |<code>$outputFile</code> |C:\temp\logon_sessions.csv |Either set a path to write a CSV file of logon sessions to, or leave blank to print logon sessions to the terminal only |
