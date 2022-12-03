@@ -3,7 +3,7 @@ Write-Output "***************************************************"
 Write-Output "WINDOWS LOGON SESSION EVTX PARSER"
 Write-Output "by Matt C. A. Smith - MattCASmith.net, @mattcasmith"
 Write-Output "***************************************************"
-Write-Output "As always, use of this script is at your own risk.
+Write-Output "As always, use of this script is at your own risk."
 Write-Output "***************************************************"
 Write-Output ""
 
