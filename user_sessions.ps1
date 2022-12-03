@@ -3,16 +3,18 @@ Write-Output "***************************************************"
 Write-Output "WINDOWS LOGON SESSION EVTX PARSER"
 Write-Output "by Matt C. A. Smith - MattCASmith.net, @mattcasmith"
 Write-Output "***************************************************"
+Write-Output "As always, use of this script is at your own risk.
+Write-Output "***************************************************"
 Write-Output ""
 
 ### VARIABLES ###
 Write-Output "[+] Parsing variables..."
 # Log file - leave blank for live event log (must be run as administrator)
-$logFile = "F:\Desktop\test_security.evtx"
+$logFile = "C:\Users\user\Desktop\log.evtx"
 # Verbosity (1 - complete sessions only, 2 - all events, no SYSTEM account, 3 - all events)
 $verbosity = 1
 # CSV output file - leave blank for terminal-only results
-$outputFile = "F:\Desktop\login_sessions.csv"
+$outputFile = "C:\Users\user\Desktop\login_sessions.csv"
 
 ### Print variable info
 if ($logFile -eq "")
